@@ -1,0 +1,25 @@
+table {
+    border: 1px solid black;
+    
+    border-collapse:collapse;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+}
+/*selectores de columna*/
+table td:nth-child(1) { 
+    background-color: yellow;
+    border-style: solid;
+  }
+
+  table td:nth-child(2) {
+    background-color:blue;
+    border-style: solid;
+  }
+
+table td:nth-child(3) {
+    background-color:red;
+    border-style: solid;
+  }
